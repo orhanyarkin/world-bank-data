@@ -105,7 +105,7 @@ main{position:relative;z-index:1;max-width:1300px;margin:0 auto;padding:0 2rem;}
 @keyframes scrollBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(6px);}}
 
 /* ── FLAG ── */
-.hero-flag-wrap{position:absolute;right:0;top:50%;transform:translateY(-50%);width:min(270px,28vw);opacity:0;animation:fadeIn 1.2s .9s ease forwards;}
+.hero-flag-wrap{position:absolute;right:0;top:38%;transform:translateY(-50%);width:min(270px,28vw);opacity:0;animation:fadeIn 1.2s .9s ease forwards;}
 .korea-flag-svg{width:100%;height:auto;filter:drop-shadow(0 0 36px rgba(192,57,43,.14));animation:floatFlag 6s ease-in-out infinite;}
 [data-theme="light"] .korea-flag-svg{filter:drop-shadow(0 0 28px rgba(192,57,43,.10));}
 @keyframes floatFlag{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-12px) rotate(1deg);}}
@@ -231,7 +231,7 @@ footer{position:relative;z-index:1;border-top:1px solid var(--border);padding:3r
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
 
 /* ── RESPONSIVE ── */
-@media(max-width:900px){.nav-links{display:none;}nav{padding:.8rem 1.2rem;}main{padding:0 1rem;}.hero-flag-wrap{display:none;}.context-grid{grid-template-columns:1fr;gap:2rem;}.section-header{flex-direction:column;align-items:flex-start;}.section-desc{text-align:left;max-width:100%;}footer{flex-direction:column;align-items:flex-start;}.footer-course{text-align:left;}}
+@media(max-width:900px){.nav-links{display:none;}nav{padding:.8rem 1.2rem;}main{padding:0 1rem;}.hero-flag-wrap{position:relative;top:auto;right:auto;transform:none;width:140px;margin:3.5rem auto 0;}.context-grid{grid-template-columns:1fr;gap:2rem;}.section-header{flex-direction:column;align-items:flex-start;}.section-desc{text-align:left;max-width:100%;}footer{flex-direction:column;align-items:flex-start;}.footer-course{text-align:left;}}
 @media(max-width:480px){.hero-meta{gap:1.4rem;}.kpi-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));}}
 </style>
 </head>
